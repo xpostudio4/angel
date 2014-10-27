@@ -1,14 +1,34 @@
 /*! project specific CSS goes here. */
 
-.btn-success {
+.btn-join {
 	font-size: 24px;
+	border: 3px solid #0e467d;
+	margin-top: 40px;
+	color: #0e467d;
+	background-color: transparent;
+}
+
+.btn-join:hover {
+	background-color: #0e467d;
+	color: #fff;
+	border-color: #0e467d;
 }
 
 .cover {
-	padding: 20% 0%;
+	padding: 15% 0%;
+	background-image: url('/img/cover.jpg') no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .cover p {
 	font-size: 18px;
 	margin: 20px 0px;
+}
+
+.cover h1 {
+	font-size: 4em;
+	color: #0e467d;
 }
