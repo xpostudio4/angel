@@ -1,0 +1,14 @@
+/*! project specific CSS goes here. */
+
+.btn-success {
+	font-size: 24px;
+}
+
+.cover {
+	padding: 20% 0%;
+}
+
+.cover p {
+	font-size: 18px;
+	margin: 20px 0px;
+}
