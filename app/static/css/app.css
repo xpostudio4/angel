@@ -85,12 +85,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .active i {
 	color: #000 !important;
+	font-size: 24px;
 }
 
 .nav>li>a:hover, 
 .nav>li>a:focus {
 background-color: transparent;
 }
+
+.copyright {
+	background-color: #000;
+	padding: 10px;
+	color: #fff;
+}
+
+.copyright p {
+	padding: 0px;
+}
+
+.copyright a {
+	color: #fff;
+	text-decoration: underline;
+}
+
 
 
 

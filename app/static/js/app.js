@@ -31,6 +31,6 @@ $(document).ready (function () {
 	   		}, 1000);
 	});
 
-	$('body').scrollspy({ target: '.navbar-example' })
+	$('body').scrollspy({ target: '.navbar-example' });
 
 });
