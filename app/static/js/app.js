@@ -31,6 +31,18 @@ $(document).ready (function () {
 	   		}, 1000);
 	});
 
+	$("#third").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $("#speaker").offset().top
+	   		}, 1000);
+	});
+
+	$("#fourth").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $("#venue").offset().top
+	   		}, 1000);
+	});
+
 	$('body').scrollspy({ target: '.navbar-example' });
 
 });
