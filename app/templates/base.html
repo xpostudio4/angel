@@ -10,6 +10,9 @@
 
     <!-- Le styles -->
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300, 400, 700, 800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -24,20 +27,48 @@
     {% block extra_css %}{% endblock extra_css %}
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar-example">
 
-  <div class="cover" style="background-image: url('{% static 'img/cover.jpg' %}');">
-      <div class="container">
-
+  <div id="cover">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 text-center">
+            <div class="col-sm-10 text-center col-sm-offset-1">
               <h1>Conectando al inversionista con las oportunidades</h1>
-              <a href="" class="btn btn-default btn-join btn-large">Únete</a>
-            </div>
-       </div>
-      </div>
+              <a href="" class="btn btn-default btn-join btn-large">Obtén una invitación</a>
 
-  </div> <!-- /container -->
+              <div>
+                <a id="button"><img src="{% static 'img/arrow.png' %}"></a>
+              </div>
+
+            </div>
+
+            <div class="col-sm-1">
+                <div class="menu navbar-example" data-spy="affix" >
+                  <ul class="text-right nav">
+                    <li><a id="first"  href="#cover" class="btn-white"><i class="fa fa-circle"></i></a></li>
+                    <li><a id="second" href="#about"><i class="fa fa-circle"></i></a></li>
+                  </ul>
+                </div>
+            </div>
+
+       </div>
+    </div>
+  </div> <!-- /cover -->
+
+
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 text-center col-sm-offset-1">
+          <h1>Sé un Ángel</h1>
+          <p>El propósito de <b id="bold">inversionangel.do</b> es dar a conocer la inversión ángel como una alternativa viable para crear riqueza y capital social. En República Dominicana la inversión angel no es muy practicada de manera profesional, pero esta actividad es parte elemental de la creación y avance de nuevas industrias además de los beneficios colaterales que provee.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Le javascript
     ================================================== -->

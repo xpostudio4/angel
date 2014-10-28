@@ -1,34 +1,97 @@
 /*! project specific CSS goes here. */
 
+body {
+  position: relative;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-weight: 800;
+}
+
+#bold {
+	font-family: 'Source Sans Pro', sans-serif; 
+  font-weight: 800;
+}
+
 .btn-join {
 	font-size: 24px;
-	border: 3px solid #0e467d;
+	border: 3px solid #f1f1f1;
 	margin-top: 40px;
-	color: #0e467d;
+	color: #f1f1f1;
 	background-color: transparent;
+	padding: 10px 40px;
 }
 
 .btn-join:hover {
-	background-color: #0e467d;
-	color: #fff;
-	border-color: #0e467d;
+	color: #111;
+	border-color: #111;
+	background-color: transparent;
 }
 
-.cover {
-	padding: 15% 0%;
-	background-image: url('/img/cover.jpg') no-repeat;
+#cover {
+	padding-top: 15%;
+	background:url('../img/cover.jpg') no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 
-.cover p {
+#cover img {
+	height: 40px;
+	margin-top: 180px;
+}
+
+#cover p {
 	font-size: 18px;
 	margin: 20px 0px;
 }
 
-.cover h1 {
+#cover h1 {
 	font-size: 4em;
-	color: #0e467d;
+	color: #fff;
+	text-shadow: 1px 1px #333333;
 }
+
+#about h1 {
+	font-size: 4em;
+}
+
+#about p {
+	font-size: 2em;
+}
+
+#about {
+	padding: 15% 0%;
+}
+
+.menu {
+	margin-top: 100px;
+}
+
+.menu li {
+	list-style: none;
+}
+
+.menu li a {
+	color: #808080;
+}
+
+.active i {
+	color: #000 !important;
+}
+
+.nav>li>a:hover, 
+.nav>li>a:focus {
+background-color: transparent;
+}
+
+
+
+
